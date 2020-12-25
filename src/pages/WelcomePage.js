@@ -7,29 +7,29 @@ import {
   StyleSheet,
 } from 'react-native';
 
+import {welcome_page} from '../styles/style';
+
 function WelcomeScreen({navigation, route}) {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>
+    <View style={welcome_page.container}>
+      <Text style={welcome_page.text}>
         What a surprise to see you here, {route.params.userText}
       </Text>
       <TouchableOpacity
-        style={styles.button}
+        style={welcome_page.button}
         onPress={() => navigation.navigate('Game')}>
-        <Text style={styles.buttontxt}>Game On</Text>
+        <Text style={welcome_page.buttontxt}>Game On</Text>
       </TouchableOpacity>
-      <View style={styles.backContainer}>
+      <View style={welcome_page.backContainer}>
         <TouchableOpacity
-          style={styles.back}
+          style={welcome_page.back}
           onPress={() => navigation.goBack()}>
-          <Text style={styles.buttonBack}>Back</Text>
+          <Text style={welcome_page.buttonBack}>Back</Text>
         </TouchableOpacity>
       </View>
     </View>
   );
 }
-
-const deviceSize = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   container: {
