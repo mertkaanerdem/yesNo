@@ -10,7 +10,9 @@ import {
 function WelcomeScreen({navigation, route}) {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hoşgeldin sevgili {route.params.userText}</Text>
+      <Text style={styles.text}>
+        What a surprise to see you here, {route.params.userText}
+      </Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Game')}>
