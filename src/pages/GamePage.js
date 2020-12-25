@@ -14,9 +14,9 @@ function GameScreen({navigation}) {
     let sayMe = Math.random();
 
     if (sayMe > 0.5) {
-      setYesOrNo('Evet');
+      setYesOrNo('Yes');
     } else {
-      setYesOrNo('Hayır');
+      setYesOrNo('No');
     }
   }
 
@@ -26,7 +26,7 @@ function GameScreen({navigation}) {
         <Text style={styles.logo}>{yesOrNo}</Text>
       </View>
       <TouchableOpacity style={styles.button} onPress={yesNo}>
-        <Text>Yes or No</Text>
+        <Text style={styles.buttontxt}>What Do You Thing?</Text>
       </TouchableOpacity>
       <View style={styles.backContainer}>
         <TouchableOpacity
