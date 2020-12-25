@@ -57,7 +57,6 @@ const styles = StyleSheet.create({
   },
   backContainer: {
     alignItems: 'flex-end',
-
     width: deviceSize.width * 0.9,
   },
   back: {
@@ -65,7 +64,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#aa55ff',
     paddingVertical: 10,
-    width: 60,
+    width: 200,
   },
   buttonBack: {
     color: '#ddd',
