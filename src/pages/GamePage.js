@@ -19,7 +19,7 @@ function GameScreen({navigation}) {
   return (
     <View style={game_page.container}>
       <View>
-        <Text style={game_page.logo}>{yesOrNo}</Text>
+        <Text style={game_page.answer}>{yesOrNo}</Text>
       </View>
       <TouchableOpacity style={game_page.button} onPress={yesNo}>
         <Text style={game_page.buttontxt}>What Do You Thing?</Text>

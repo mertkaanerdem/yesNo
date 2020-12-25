@@ -92,7 +92,7 @@ const game_page = StyleSheet.create({
     borderRadius: 10,
   },
 
-  logo: {
+  answer: {
     textAlign: 'center',
     fontSize: 30,
     fontWeight: 'bold',
