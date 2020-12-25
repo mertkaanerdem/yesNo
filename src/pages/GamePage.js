@@ -23,7 +23,7 @@ function GameScreen({navigation}) {
         </TouchableOpacity>
       </View>
       <TouchableOpacity onPress={() => navigation.navigate('Login')}>
-        <Text>Ana Sayfaya Dön</Text>
+        <Text>Return to Login Page</Text>
       </TouchableOpacity>
     </View>
   );

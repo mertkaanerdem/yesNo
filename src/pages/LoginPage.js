@@ -22,7 +22,10 @@ function LoginScreen(props) {
         <Text>YES or NO</Text>
 
         <View>
-          <TextInput onChangeText={(val) => setText(val)} />
+          <TextInput
+            placeholder="Give me your name"
+            onChangeText={(val) => setText(val)}
+          />
         </View>
 
         <TouchableOpacity title="Go to Welcome Page" onPress={goTo}>
