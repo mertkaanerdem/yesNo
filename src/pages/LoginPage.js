@@ -77,7 +77,8 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
   buttontxt: {
-    color: '#333',
+    color: '#666',
+    fontWeight: 'bold',
   },
 });
 
