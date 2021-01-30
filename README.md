@@ -1,7 +1,3 @@
-![LoginPage](./assets/LoginPage.png)
-![WelcomePage](./assets/WelcomePage.png)
-![GamePage](./assets/GamePage.png)
-
 # YesNo App
 
 ## This is just trying
