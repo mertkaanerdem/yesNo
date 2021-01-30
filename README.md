@@ -1,6 +1,6 @@
 # YesNo App
 
-## This is just trying
+## This is just a training
 
 <br />
 
